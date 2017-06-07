@@ -1,5 +1,5 @@
 [abi]
-abiname: ubi4
+abiname: ubi5
 ignore-changes:
 # Not used by OOT modules
  __scm_destroy
@@ -29,10 +29,7 @@ initramfs-generators: initramfs-tools initramfs-fallback
 
 [relations]
 # compilers
-gcc-4.6: gcc-4.6
-gcc-4.7: gcc-4.7
-gcc-4.8: gcc-4.8
-gcc-4.9: gcc-4.9
+gcc-6: gcc-6 <!stage1 !cross>, gcc-6-@gnu-type-package@:native <!stage1 cross>
 
 # initramfs-generators
 initramfs-fallback: linux-initramfs-tool
