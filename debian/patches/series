@@ -49,7 +49,8 @@ features/mips/MIPS-increase-MAX-PHYSMEM-BITS-on-Loongson-3-only.patch
 features/mips/MIPS-Loongson-3-Add-Loongson-LS3A-RS780E-1-way-machi.patch
 features/mips/MIPS-octeon-Add-support-for-the-UBNT-E200-board.patch
 features/x86/x86-memtest-WARN-if-bad-RAM-found.patch
-features/x86/x86-make-x32-syscall-support-conditional.patch
+#This interfere with RTAI patchset
+#features/x86/x86-make-x32-syscall-support-conditional.patch
 features/arm/rpi/pwm-bcm2835-calculate-scaler-in-config.patch
 features/arm/rpi/pwm-bcm2835-prevent-division-by-zero.patch
 features/arm/rpi/pwm-bcm2835-fix-email-address-specification.patch
@@ -160,7 +161,8 @@ features/all/upboard/0026-x86-up-prevent-concurrent-access-to-CPLD-config.patch
 features/all/upboard/0027-iio-adc-ti-adc081c-add-acpi-match-ID.patch
 features/all/upboard/0028-x86-up-support-ACPI-device-registration-for-ADC.patch
 features/all/upboard/0029-x86-up-default-up_board.spidev1-to-false.patch
-features/all/upboard/0030-mmc-sdhci-Fix-recovery-from-tuning-timeout.patch
+#Does not apply on 4.4.43. Probably fixed upstream
+#features/all/upboard/0030-mmc-sdhci-Fix-recovery-from-tuning-timeout.patch
 
 # plbossart's HDMI audio for Cherry Trail
 features/all/upboard/hdmiaudio/0001-drm-i915-remove-intel_hdmi-variable-declaration.patch
