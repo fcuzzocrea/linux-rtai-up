@@ -20,7 +20,7 @@ ignore-changes:
 [base]
 arches:
  amd64
-compiler: gcc-4.9
+compiler: gcc-6
 featuresets:
  none
  rtai
