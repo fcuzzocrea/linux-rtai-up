@@ -339,11 +339,6 @@ CONFIG_ZSMALLOC=y
 CONFIG_ARCH_SUPPORTS_DEFERRED_STRUCT_PAGE_INIT=y
 # CONFIG_IDLE_PAGE_TRACKING is not set
 # CONFIG_X86_PMEM_LEGACY is not set
-# CONFIG_EFI is not set
-# CONFIG_EFI_STUB is not set
-# CONFIG_EFI_MIXED is not set
-# CONFIG_EFI is not set
-# CONFIG_HZ_250 is not set
 # CONFIG_HZ_250 is not set
 
 # CONFIG_HZ is not set
@@ -2862,19 +2857,6 @@ CONFIG_I2C_ALGOBIT=y
 
 # CONFIG_SPI_LM70_LLP is not set
 
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_SPI is not set
 # CONFIG_PPS is not set
 CONFIG_PPS=y
 # CONFIG_PPS_CLIENT_LDISC is not set
@@ -2882,99 +2864,21 @@ CONFIG_PPS=y
 # CONFIG_PPS_CLIENT_LDISC is not set
 # CONFIG_PTP_1588_CLOCK is not set
 CONFIG_PTP_1588_CLOCK=y
-# CONFIG_PINCTRL is not set
 
-
-
-
-
-
-
-
-
-# CONFIG_GPIOLIB is not set
-# CONFIG_GPIO_DEVRES is not set
-# CONFIG_GPIO_ACPI is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_GPIO_KEMPLD is not set
-
-
-
-
-
-
-# CONFIG_GPIO_ML_IOH is not set
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_GPIO_VIPERBOARD is not set
 # CONFIG_W1 is not set
 # CONFIG_W1_CON is not set
-
-
-
 
 # CONFIG_W1_MASTER_MATROX is not set
 # CONFIG_W1_MASTER_DS2490 is not set
 # CONFIG_W1_MASTER_DS2482 is not set
 
-
-
-
-
-
 # CONFIG_W1_SLAVE_THERM is not set
 # CONFIG_W1_SLAVE_SMEM is not set
-
-
-
 
 # CONFIG_W1_SLAVE_DS2431 is not set
 # CONFIG_W1_SLAVE_DS2433 is not set
 
-
-
-
-
 # CONFIG_W1_SLAVE_BQ27000 is not set
-# CONFIG_GPIOLIB is not set
 # CONFIG_W1 is not set
 
 # CONFIG_BATTERY_SBS is not set
@@ -2982,226 +2886,8 @@ CONFIG_PTP_1588_CLOCK=y
 # CONFIG_BATTERY_SBS is not set
 # CONFIG_BATTERY_BQ27XXX is not set
 
-
-
-# CONFIG_HWMON_VID is not set
-# CONFIG_HWMON_VID is not set
-# CONFIG_SENSORS_ABITUGURU is not set
-# CONFIG_SENSORS_ABITUGURU3 is not set
-
-# CONFIG_SENSORS_AD7414 is not set
-# CONFIG_SENSORS_AD7418 is not set
-# CONFIG_SENSORS_ADM1021 is not set
-# CONFIG_SENSORS_ADM1025 is not set
-# CONFIG_SENSORS_ADM1026 is not set
-# CONFIG_SENSORS_ADM1029 is not set
-# CONFIG_SENSORS_ADM1031 is not set
-# CONFIG_SENSORS_ADM9240 is not set
-
-# CONFIG_SENSORS_ABITUGURU is not set
-# CONFIG_SENSORS_ABITUGURU3 is not set
-# CONFIG_SENSORS_AD7414 is not set
-# CONFIG_SENSORS_AD7418 is not set
-# CONFIG_SENSORS_ADM1021 is not set
-# CONFIG_SENSORS_ADM1025 is not set
-# CONFIG_SENSORS_ADM1026 is not set
-# CONFIG_SENSORS_ADM1029 is not set
-# CONFIG_SENSORS_ADM1031 is not set
-# CONFIG_SENSORS_ADM9240 is not set
-# CONFIG_SENSORS_ADT7411 is not set
-# CONFIG_SENSORS_ADT7462 is not set
-# CONFIG_SENSORS_ADT7470 is not set
-# CONFIG_SENSORS_ADT7475 is not set
-# CONFIG_SENSORS_ASC7621 is not set
-# CONFIG_SENSORS_K8TEMP is not set
-# CONFIG_SENSORS_K10TEMP is not set
-# CONFIG_SENSORS_FAM15H_POWER is not set
-# CONFIG_SENSORS_APPLESMC is not set
-# CONFIG_SENSORS_ASB100 is not set
-# CONFIG_SENSORS_ATXP1 is not set
-# CONFIG_SENSORS_DS620 is not set
-# CONFIG_SENSORS_DS1621 is not set
-# CONFIG_SENSORS_I5K_AMB is not set
-# CONFIG_SENSORS_F71805F is not set
-# CONFIG_SENSORS_F71882FG is not set
-# CONFIG_SENSORS_F75375S is not set
-# CONFIG_SENSORS_FSCHMD is not set
-# CONFIG_SENSORS_GL518SM is not set
-# CONFIG_SENSORS_GL520SM is not set
-# CONFIG_SENSORS_G760A is not set
-# CONFIG_SENSORS_ADT7411 is not set
-# CONFIG_SENSORS_ADT7462 is not set
-# CONFIG_SENSORS_ADT7470 is not set
-# CONFIG_SENSORS_ADT7475 is not set
-# CONFIG_SENSORS_ASC7621 is not set
-# CONFIG_SENSORS_K8TEMP is not set
-# CONFIG_SENSORS_K10TEMP is not set
-# CONFIG_SENSORS_FAM15H_POWER is not set
-# CONFIG_SENSORS_APPLESMC is not set
-# CONFIG_SENSORS_ASB100 is not set
-# CONFIG_SENSORS_ATXP1 is not set
-# CONFIG_SENSORS_DS620 is not set
-# CONFIG_SENSORS_DS1621 is not set
-# CONFIG_SENSORS_DELL_SMM is not set
-# CONFIG_SENSORS_I5K_AMB is not set
-# CONFIG_SENSORS_F71805F is not set
-# CONFIG_SENSORS_F71882FG is not set
-# CONFIG_SENSORS_F75375S is not set
-# CONFIG_SENSORS_FSCHMD is not set
-# CONFIG_SENSORS_GL518SM is not set
-# CONFIG_SENSORS_GL520SM is not set
-# CONFIG_SENSORS_G760A is not set
-
-# CONFIG_SENSORS_IBMAEM is not set
-# CONFIG_SENSORS_IBMPEX is not set
-
-# CONFIG_SENSORS_CORETEMP is not set
-# CONFIG_SENSORS_IT87 is not set
-# CONFIG_SENSORS_JC42 is not set
-# CONFIG_SENSORS_CORETEMP is not set
-# CONFIG_SENSORS_IT87 is not set
-# CONFIG_SENSORS_JC42 is not set
-# CONFIG_SENSORS_LINEAGE is not set
-# CONFIG_SENSORS_LINEAGE is not set
-# CONFIG_SENSORS_LTC4151 is not set
-# CONFIG_SENSORS_LTC4215 is not set
-# CONFIG_SENSORS_LTC4151 is not set
-# CONFIG_SENSORS_LTC4215 is not set
-# CONFIG_SENSORS_LTC4245 is not set
-# CONFIG_SENSORS_LTC4245 is not set
-# CONFIG_SENSORS_LTC4261 is not set
-# CONFIG_SENSORS_MAX1111 is not set
-# CONFIG_SENSORS_MAX16065 is not set
-# CONFIG_SENSORS_MAX1619 is not set
-# CONFIG_SENSORS_MAX1668 is not set
-# CONFIG_SENSORS_LTC4261 is not set
-# CONFIG_SENSORS_MAX16065 is not set
-# CONFIG_SENSORS_MAX1619 is not set
-# CONFIG_SENSORS_MAX1668 is not set
-# CONFIG_SENSORS_MAX6639 is not set
-# CONFIG_SENSORS_MAX6642 is not set
-# CONFIG_SENSORS_MAX6650 is not set
-# CONFIG_SENSORS_MAX6639 is not set
-# CONFIG_SENSORS_MAX6642 is not set
-# CONFIG_SENSORS_MAX6650 is not set
-# CONFIG_SENSORS_MAX31790 is not set
-# CONFIG_SENSORS_MENF21BMC_HWMON is not set
-# CONFIG_SENSORS_ADCXX is not set
-# CONFIG_SENSORS_LM63 is not set
-# CONFIG_SENSORS_LM70 is not set
-# CONFIG_SENSORS_LM73 is not set
-# CONFIG_SENSORS_LM75 is not set
-# CONFIG_SENSORS_LM77 is not set
-# CONFIG_SENSORS_LM78 is not set
-# CONFIG_SENSORS_LM80 is not set
-# CONFIG_SENSORS_LM83 is not set
-# CONFIG_SENSORS_LM85 is not set
-# CONFIG_SENSORS_LM87 is not set
-# CONFIG_SENSORS_LM90 is not set
-# CONFIG_SENSORS_LM92 is not set
-# CONFIG_SENSORS_LM93 is not set
-# CONFIG_SENSORS_LM63 is not set
-# CONFIG_SENSORS_LM73 is not set
-# CONFIG_SENSORS_LM75 is not set
-# CONFIG_SENSORS_LM77 is not set
-# CONFIG_SENSORS_LM78 is not set
-# CONFIG_SENSORS_LM80 is not set
-# CONFIG_SENSORS_LM83 is not set
-# CONFIG_SENSORS_LM85 is not set
-# CONFIG_SENSORS_LM87 is not set
-# CONFIG_SENSORS_LM90 is not set
-# CONFIG_SENSORS_LM92 is not set
-# CONFIG_SENSORS_LM93 is not set
-# CONFIG_SENSORS_LM95241 is not set
-# CONFIG_SENSORS_LM95245 is not set
-# CONFIG_SENSORS_PC87360 is not set
-# CONFIG_SENSORS_PC87427 is not set
-# CONFIG_SENSORS_NTC_THERMISTOR is not set
-# CONFIG_SENSORS_NCT6683 is not set
-# CONFIG_SENSORS_NCT6775 is not set
-# CONFIG_SENSORS_LM95241 is not set
-# CONFIG_SENSORS_LM95245 is not set
-# CONFIG_SENSORS_PC87360 is not set
-# CONFIG_SENSORS_PC87427 is not set
-# CONFIG_SENSORS_NTC_THERMISTOR is not set
-# CONFIG_SENSORS_NCT6683 is not set
-# CONFIG_SENSORS_NCT6775 is not set
-# CONFIG_SENSORS_PCF8591 is not set
-# CONFIG_SENSORS_PCF8591 is not set
-
-# CONFIG_SENSORS_SHT21 is not set
-# CONFIG_SENSORS_SHT21 is not set
-# CONFIG_SENSORS_SIS5595 is not set
-# CONFIG_SENSORS_DME1737 is not set
-# CONFIG_SENSORS_EMC1403 is not set
-# CONFIG_SENSORS_EMC2103 is not set
-# CONFIG_SENSORS_EMC6W201 is not set
-# CONFIG_SENSORS_SMSC47M1 is not set
-# CONFIG_SENSORS_SMSC47M192 is not set
-# CONFIG_SENSORS_SMSC47B397 is not set
-# CONFIG_SENSORS_SCH56XX_COMMON is not set
-# CONFIG_SENSORS_SCH5627 is not set
-# CONFIG_SENSORS_SCH5636 is not set
-# CONFIG_SENSORS_SMM665 is not set
-# CONFIG_SENSORS_SIS5595 is not set
-# CONFIG_SENSORS_DME1737 is not set
-# CONFIG_SENSORS_EMC1403 is not set
-# CONFIG_SENSORS_EMC2103 is not set
-# CONFIG_SENSORS_EMC6W201 is not set
-# CONFIG_SENSORS_SMSC47M1 is not set
-# CONFIG_SENSORS_SMSC47M192 is not set
-# CONFIG_SENSORS_SMSC47B397 is not set
-# CONFIG_SENSORS_SCH56XX_COMMON is not set
-# CONFIG_SENSORS_SMM665 is not set
-# CONFIG_SENSORS_ADS1015 is not set
-# CONFIG_SENSORS_ADS7828 is not set
-# CONFIG_SENSORS_ADS7871 is not set
-# CONFIG_SENSORS_AMC6821 is not set
-# CONFIG_SENSORS_ADS1015 is not set
-# CONFIG_SENSORS_ADS7828 is not set
-# CONFIG_SENSORS_AMC6821 is not set
-# CONFIG_SENSORS_THMC50 is not set
-# CONFIG_SENSORS_TMP102 is not set
-# CONFIG_SENSORS_TC74 is not set
-# CONFIG_SENSORS_THMC50 is not set
-# CONFIG_SENSORS_TMP102 is not set
-# CONFIG_SENSORS_TMP401 is not set
-# CONFIG_SENSORS_TMP421 is not set
-# CONFIG_SENSORS_VIA_CPUTEMP is not set
-# CONFIG_SENSORS_VIA686A is not set
-# CONFIG_SENSORS_VT1211 is not set
-# CONFIG_SENSORS_VT8231 is not set
-# CONFIG_SENSORS_W83781D is not set
-# CONFIG_SENSORS_W83791D is not set
-# CONFIG_SENSORS_W83792D is not set
-# CONFIG_SENSORS_W83793 is not set
-# CONFIG_SENSORS_W83795 is not set
-
-# CONFIG_SENSORS_W83L785TS is not set
-# CONFIG_SENSORS_W83L786NG is not set
-# CONFIG_SENSORS_W83627HF is not set
-# CONFIG_SENSORS_W83627EHF is not set
-# CONFIG_SENSORS_TMP401 is not set
-# CONFIG_SENSORS_TMP421 is not set
-# CONFIG_SENSORS_VIA_CPUTEMP is not set
-# CONFIG_SENSORS_VIA686A is not set
-# CONFIG_SENSORS_VT1211 is not set
-# CONFIG_SENSORS_VT8231 is not set
-# CONFIG_SENSORS_W83781D is not set
-# CONFIG_SENSORS_W83791D is not set
-# CONFIG_SENSORS_W83792D is not set
-# CONFIG_SENSORS_W83793 is not set
-# CONFIG_SENSORS_W83795 is not set
-# CONFIG_SENSORS_W83L785TS is not set
-# CONFIG_SENSORS_W83L786NG is not set
-# CONFIG_SENSORS_W83627HF is not set
-# CONFIG_SENSORS_W83627EHF is not set
-# CONFIG_SENSORS_ACPI_POWER is not set
-# CONFIG_SENSORS_ATK0110 is not set
-# CONFIG_THERMAL is not set
 # CONFIG_THERMAL_HWMON is not set
-# CONFIG_SENSORS_ACPI_POWER is not set
-# CONFIG_SENSORS_ATK0110 is not set
+
 CONFIG_THERMAL=y
 # CONFIG_THERMAL_HWMON is not set
 # CONFIG_THERMAL_WRITABLE_TRIPS is not set
@@ -3217,20 +2903,11 @@ CONFIG_THERMAL=y
 # CONFIG_INT340X_THERMAL is not set
 # CONFIG_ACPI_THERMAL_REL is not set
 
-
-
-
 # CONFIG_WATCHDOG is not set
 # CONFIG_WATCHDOG_CORE is not set
 
-
-
-
-
 # CONFIG_SOFT_WATCHDOG is not set
 # CONFIG_MENF21BMC_WATCHDOG is not set
-
-
 
 # CONFIG_ACQUIRE_WDT is not set
 # CONFIG_ADVANTECH_WDT is not set
@@ -3266,15 +2943,8 @@ CONFIG_THERMAL=y
 # CONFIG_MACHZ_WDT is not set
 # CONFIG_SBC_EPX_C3_WATCHDOG is not set
 
-
-
-
-
 # CONFIG_PCIPCWATCHDOG is not set
 # CONFIG_WDTPCI is not set
-
-
-
 
 # CONFIG_USBPCWATCHDOG is not set
 # CONFIG_INT340X_THERMAL is not set
@@ -3291,7 +2961,6 @@ CONFIG_THERMAL=y
 # CONFIG_SSB_SDIOHOST_POSSIBLE is not set
 # CONFIG_SSB_SDIOHOST is not set
 
-
 # CONFIG_SSB_DRIVER_PCICORE_POSSIBLE is not set
 # CONFIG_SSB_DRIVER_PCICORE is not set
 
@@ -3303,16 +2972,11 @@ CONFIG_THERMAL=y
 
 # CONFIG_BCMA_DRIVER_PCI is not set
 
-
-
 # CONFIG_BCMA is not set
 # CONFIG_MFD_CORE is not set
 CONFIG_MFD_CORE=y
 
-
 # CONFIG_MFD_DA9062 is not set
-
-
 
 # CONFIG_LPC_ICH is not set
 # CONFIG_LPC_SCH is not set
@@ -3334,16 +2998,7 @@ CONFIG_LPC_ICH=y
 # CONFIG_MFD_RTSX_USB is not set
 # CONFIG_MFD_RTSX_USB is not set
 
-
-
-
-
-
-
 # CONFIG_MEDIA_SUPPORT is not set
-
-
-
 
 # CONFIG_MEDIA_CAMERA_SUPPORT is not set
 # CONFIG_MEDIA_ANALOG_TV_SUPPORT is not set
@@ -3353,9 +3008,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_MEDIA_RC_SUPPORT is not set
 # CONFIG_MEDIA_CONTROLLER is not set
 # CONFIG_VIDEO_DEV is not set
-
-# CONFIG_VIDEO_V4L2 is not set
-
 
 # CONFIG_VIDEO_TUNER is not set
 # CONFIG_VIDEOBUF_GEN is not set
@@ -3373,9 +3025,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_TTPCI_EEPROM is not set
 # CONFIG_DVB_MAX_ADAPTERS is not set
 # CONFIG_DVB_DYNAMIC_MINORS is not set
-
-
-
 
 # CONFIG_RC_CORE is not set
 # CONFIG_RC_MAP is not set
@@ -3409,9 +3058,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_RC_LOOPBACK is not set
 
 # CONFIG_MEDIA_USB_SUPPORT is not set
-
-
-
 
 # CONFIG_USB_VIDEO_CLASS is not set
 # CONFIG_USB_VIDEO_CLASS_INPUT_EVDEV is not set
@@ -3474,9 +3120,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_USB_S2255 is not set
 # CONFIG_VIDEO_USBTV is not set
 
-
-
-
 # CONFIG_VIDEO_PVRUSB2 is not set
 # CONFIG_VIDEO_PVRUSB2_SYSFS is not set
 # CONFIG_VIDEO_PVRUSB2_DVB is not set
@@ -3486,10 +3129,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_VIDEO_STK1160_COMMON is not set
 # CONFIG_VIDEO_STK1160_AC97 is not set
 # CONFIG_VIDEO_STK1160 is not set
-
-
-
-
 
 # CONFIG_VIDEO_AU0828 is not set
 # CONFIG_VIDEO_AU0828_V4L2 is not set
@@ -3501,9 +3140,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_VIDEO_TM6000 is not set
 # CONFIG_VIDEO_TM6000_ALSA is not set
 # CONFIG_VIDEO_TM6000_DVB is not set
-
-
-
 
 # CONFIG_DVB_USB is not set
 
@@ -3552,30 +3188,18 @@ CONFIG_LPC_ICH=y
 
 # CONFIG_DVB_AS102 is not set
 
-
-
-
 # CONFIG_VIDEO_EM28XX is not set
 # CONFIG_VIDEO_EM28XX_V4L2 is not set
 # CONFIG_VIDEO_EM28XX_ALSA is not set
 # CONFIG_VIDEO_EM28XX_DVB is not set
 # CONFIG_VIDEO_EM28XX_RC is not set
 
-
-
-
 # CONFIG_USB_AIRSPY is not set
 # CONFIG_USB_HACKRF is not set
 # CONFIG_USB_MSI2500 is not set
 # CONFIG_MEDIA_PCI_SUPPORT is not set
 
-
-
-
 # CONFIG_VIDEO_MEYE is not set
-
-
-
 
 # CONFIG_VIDEO_IVTV is not set
 # CONFIG_VIDEO_IVTV_ALSA is not set
@@ -3593,9 +3217,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_VIDEO_MXB is not set
 # CONFIG_VIDEO_SOLO6X10 is not set
 # CONFIG_VIDEO_TW68 is not set
-
-
-
 
 # CONFIG_VIDEO_CX18 is not set
 # CONFIG_VIDEO_CX18_ALSA is not set
@@ -3616,9 +3237,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_VIDEO_SAA7134_RC is not set
 # CONFIG_VIDEO_SAA7134_DVB is not set
 # CONFIG_VIDEO_SAA7164 is not set
-
-
-
 
 # CONFIG_DVB_AV7110_IR is not set
 # CONFIG_DVB_AV7110 is not set
@@ -3646,20 +3264,14 @@ CONFIG_LPC_ICH=y
 
 # CONFIG_V4L_MEM2MEM_DRIVERS is not set
 
-
 # CONFIG_V4L_TEST_DRIVERS is not set
 # CONFIG_VIDEO_VIVID is not set
-
-
-
-
 
 # CONFIG_SMS_SDIO_DRV is not set
 # CONFIG_RADIO_ADAPTERS is not set
 # CONFIG_RADIO_TEA575X is not set
 # CONFIG_RADIO_SI470X is not set
 # CONFIG_USB_SI470X is not set
-
 
 # CONFIG_USB_MR800 is not set
 # CONFIG_USB_DSBR is not set
@@ -3670,23 +3282,9 @@ CONFIG_LPC_ICH=y
 # CONFIG_USB_RAREMONO is not set
 # CONFIG_USB_MA901 is not set
 
-
-
-
-
-
-
-
-
-
-
-
 # CONFIG_DVB_FIREDTV is not set
 # CONFIG_DVB_FIREDTV_INPUT is not set
 # CONFIG_MEDIA_COMMON_OPTIONS is not set
-
-
-
 
 # CONFIG_VIDEO_CX2341X is not set
 # CONFIG_VIDEO_TVEEPROM is not set
@@ -3697,16 +3295,9 @@ CONFIG_LPC_ICH=y
 # CONFIG_SMS_SIANO_MDTV is not set
 # CONFIG_SMS_SIANO_RC is not set
 
-
-
-
-
 # CONFIG_MEDIA_SUBDRV_AUTOSELECT is not set
 # CONFIG_MEDIA_ATTACH is not set
 # CONFIG_VIDEO_IR_I2C is not set
-
-
-
 
 # CONFIG_VIDEO_TVAUDIO is not set
 # CONFIG_VIDEO_TDA7432 is not set
@@ -3720,13 +3311,7 @@ CONFIG_LPC_ICH=y
 # CONFIG_VIDEO_WM8739 is not set
 # CONFIG_VIDEO_VP27SMPX is not set
 
-
-
-
 # CONFIG_VIDEO_SAA6588 is not set
-
-
-
 
 # CONFIG_VIDEO_BT819 is not set
 # CONFIG_VIDEO_BT856 is not set
@@ -3737,48 +3322,23 @@ CONFIG_LPC_ICH=y
 # CONFIG_VIDEO_TVP5150 is not set
 # CONFIG_VIDEO_VPX3220 is not set
 
-
-
-
 # CONFIG_VIDEO_SAA717X is not set
 # CONFIG_VIDEO_CX25840 is not set
-
-
-
 
 # CONFIG_VIDEO_SAA7127 is not set
 # CONFIG_VIDEO_SAA7185 is not set
 # CONFIG_VIDEO_ADV7170 is not set
 # CONFIG_VIDEO_ADV7175 is not set
 
-
-
-
 # CONFIG_VIDEO_OV7670 is not set
 # CONFIG_VIDEO_MT9V011 is not set
-
-
-
-
-
-
-
 
 # CONFIG_VIDEO_UPD64031A is not set
 # CONFIG_VIDEO_UPD64083 is not set
 
-
-
-
 # CONFIG_VIDEO_SAA6752HS is not set
 
-
-
-
 # CONFIG_VIDEO_M52790 is not set
-
-
-
 
 # CONFIG_MEDIA_TUNER is not set
 # CONFIG_MEDIA_TUNER_SIMPLE is not set
@@ -3817,24 +3377,14 @@ CONFIG_LPC_ICH=y
 # CONFIG_MEDIA_TUNER_MXL301RF is not set
 # CONFIG_MEDIA_TUNER_QM1D1C0042 is not set
 
-
-
-
 # CONFIG_DVB_STB0899 is not set
 # CONFIG_DVB_STB6100 is not set
 
-
 # CONFIG_DVB_M88DS3103 is not set
-
-
-
 
 # CONFIG_DVB_DRXK is not set
 # CONFIG_DVB_TDA18271C2DD is not set
 # CONFIG_DVB_SI2165 is not set
-
-
-
 
 # CONFIG_DVB_CX24110 is not set
 # CONFIG_DVB_CX24123 is not set
@@ -3863,9 +3413,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_DVB_MB86A16 is not set
 # CONFIG_DVB_TDA10071 is not set
 
-
-
-
 # CONFIG_DVB_SP8870 is not set
 # CONFIG_DVB_SP887X is not set
 # CONFIG_DVB_CX22700 is not set
@@ -3891,16 +3438,10 @@ CONFIG_LPC_ICH=y
 # CONFIG_DVB_SI2168 is not set
 # CONFIG_DVB_AS102_FE is not set
 
-
-
-
 # CONFIG_DVB_VES1820 is not set
 # CONFIG_DVB_TDA10021 is not set
 # CONFIG_DVB_TDA10023 is not set
 # CONFIG_DVB_STV0297 is not set
-
-
-
 
 # CONFIG_DVB_NXT200X is not set
 # CONFIG_DVB_OR51211 is not set
@@ -3916,27 +3457,15 @@ CONFIG_LPC_ICH=y
 # CONFIG_DVB_AU8522_V4L is not set
 # CONFIG_DVB_S5H1411 is not set
 
-
-
-
 # CONFIG_DVB_S921 is not set
 # CONFIG_DVB_DIB8000 is not set
 # CONFIG_DVB_MB86A20S is not set
 
-
-
-
 # CONFIG_DVB_TC90522 is not set
-
-
-
 
 # CONFIG_DVB_PLL is not set
 # CONFIG_DVB_TUNER_DIB0070 is not set
 # CONFIG_DVB_TUNER_DIB0090 is not set
-
-
-
 
 # CONFIG_DVB_DRX39XYJ is not set
 # CONFIG_DVB_LNBP21 is not set
@@ -3953,10 +3482,6 @@ CONFIG_LPC_ICH=y
 # CONFIG_DVB_M88RS2000 is not set
 # CONFIG_DVB_AF9033 is not set
 
-
-
-
-
 # CONFIG_MEDIA_SUPPORT is not set
 # CONFIG_AGP_AMD64 is not set
 # CONFIG_AGP_AMD64 is not set
@@ -3966,17 +3491,10 @@ CONFIG_LPC_ICH=y
 # CONFIG_AGP_VIA is not set
 # CONFIG_VGA_SWITCHEROO is not set
 
-
-
-
-# CONFIG_DRM is not set
-# CONFIG_DRM_MIPI_DSI is not set
-# CONFIG_DRM_KMS_HELPER is not set
 # CONFIG_VGA_SWITCHEROO is not set
 CONFIG_DRM=y
 CONFIG_DRM_KMS_HELPER=y
 CONFIG_DRM_FBDEV_EMULATION=y
-# CONFIG_DRM_TTM is not set
 CONFIG_DRM_TTM=y
 # CONFIG_DRM_I2C_CH7006 is not set
 # CONFIG_DRM_I2C_SIL164 is not set
@@ -3986,17 +3504,12 @@ CONFIG_DRM_TTM=y
 # CONFIG_DRM_R128 is not set
 # CONFIG_DRM_RADEON is not set
 
-
 # CONFIG_DRM_NOUVEAU is not set
 # CONFIG_DRM_TDFX is not set
 # CONFIG_DRM_R128 is not set
 # CONFIG_DRM_RADEON is not set
 # CONFIG_DRM_AMDGPU is not set
-CONFIG_DRM_NOUVEAU=y
 # CONFIG_DRM_NOUVEAU_BACKLIGHT is not set
-# CONFIG_DRM_I915 is not set
-# CONFIG_DRM_I915_KMS is not set
-# CONFIG_DRM_I915_FBDEV is not set
 
 # CONFIG_DRM_MGA is not set
 # CONFIG_DRM_SIS is not set
@@ -4016,7 +3529,6 @@ CONFIG_DRM_NOUVEAU=y
 # CONFIG_DRM_BOCHS is not set
 # CONFIG_DRM_PANEL is not set
 # CONFIG_DRM_NOUVEAU_BACKLIGHT is not set
-# CONFIG_DRM_I915 is not set
 # CONFIG_DRM_MGA is not set
 # CONFIG_DRM_SIS is not set
 # CONFIG_DRM_VIA is not set
@@ -4066,7 +3578,6 @@ CONFIG_FB_SYS_FOPS=y
 # CONFIG_FB_UVESA is not set
 CONFIG_FB_VGA16=y
 CONFIG_FB_UVESA=y
-# CONFIG_FB_EFI is not set
 # CONFIG_FB_N411 is not set
 # CONFIG_FB_HGA is not set
 # CONFIG_FB_N411 is not set
@@ -4096,7 +3607,6 @@ CONFIG_FB_UVESA=y
 # CONFIG_FB_S3 is not set
 # CONFIG_FB_S3_DDC is not set
 # CONFIG_FB_SAVAGE is not set
-
 
 # CONFIG_FB_SIS is not set
 # CONFIG_FB_SIS_300 is not set
@@ -4290,8 +3800,6 @@ CONFIG_VGASTATE=y
 # CONFIG_SND_HDA_CODEC_ANALOG is not set
 # CONFIG_SND_HDA_CODEC_SIGMATEL is not set
 # CONFIG_SND_HDA_CODEC_VIA is not set
-# CONFIG_SND_HDA_CODEC_HDMI is not set
-# CONFIG_SND_HDA_I915 is not set
 # CONFIG_SND_HDA_CODEC_CIRRUS is not set
 # CONFIG_SND_HDA_CODEC_CONEXANT is not set
 # CONFIG_SND_HDA_CODEC_CA0110 is not set
@@ -4331,21 +3839,6 @@ CONFIG_VGASTATE=y
 # CONFIG_SND_PDAUDIOCF is not set
 # CONFIG_SND_SOC is not set
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # CONFIG_SND_SOC_INTEL_SST is not set
 # CONFIG_SND_SOC_INTEL_SST_ACPI is not set
 # CONFIG_SND_SOC_INTEL_HASWELL is not set
@@ -4355,78 +3848,14 @@ CONFIG_VGASTATE=y
 # CONFIG_SND_SOC_INTEL_BYT_MAX98090_MACH is not set
 # CONFIG_SND_SOC_INTEL_BROADWELL_MACH is not set
 
-
-
-
-
 # CONFIG_SND_SOC_I2C_AND_SPI is not set
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # CONFIG_SND_SOC_MAX98090 is not set
-
-
-
 
 # CONFIG_SND_SOC_RL6231 is not set
 # CONFIG_SND_SOC_RT286 is not set
 
 # CONFIG_SND_SOC_RT5640 is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # CONFIG_AC97_BUS is not set
 # CONFIG_SOUND is not set
@@ -4580,11 +4009,6 @@ CONFIG_HID_GENERIC=y
 CONFIG_USB_HID=y
 # CONFIG_HID_PID is not set
 
-
-
-
-
-
 # CONFIG_I2C_HID is not set
 # CONFIG_I2C_HID is not set
 # CONFIG_USB_COMMON is not set
@@ -4594,7 +4018,6 @@ CONFIG_USB=y
 # CONFIG_USB_DYNAMIC_MINORS is not set
 # CONFIG_USB_DYNAMIC_MINORS is not set
 
-
 # CONFIG_USB_MON is not set
 # CONFIG_USB_WUSB is not set
 # CONFIG_USB_WUSB_CBAF is not set
@@ -4602,19 +4025,7 @@ CONFIG_USB=y
 # CONFIG_USB_ULPI_BUS is not set
 # CONFIG_USB_MON is not set
 # CONFIG_USB_WUSB_CBAF is not set
-# CONFIG_USB_XHCI_HCD is not set
-# CONFIG_USB_XHCI_PCI is not set
-CONFIG_USB_XHCI_HCD=y
-CONFIG_USB_XHCI_PCI=y
-# CONFIG_USB_EHCI_HCD is not set
-CONFIG_USB_EHCI_HCD=y
-# CONFIG_USB_EHCI_PCI is not set
-CONFIG_USB_EHCI_PCI=y
 
-
-# CONFIG_USB_OHCI_HCD_PCI is not set
-
-# CONFIG_USB_OHCI_HCD_PCI is not set
 # CONFIG_USB_U132_HCD is not set
 # CONFIG_USB_SL811_HCD is not set
 
@@ -4780,97 +4191,22 @@ CONFIG_USB_EHCI_PCI=y
 
 # CONFIG_USB_GADGET is not set
 
-
-
 # CONFIG_USB_GADGET_VBUS_DRAW is not set
 # CONFIG_USB_GADGET_STORAGE_NUM_BUFFERS is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # CONFIG_USB_NET2280 is not set
 
 # CONFIG_USB_EG20T is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # CONFIG_USB_LED_TRIG is not set
 # CONFIG_UWB is not set
 # CONFIG_UWB_HWA is not set
 # CONFIG_UWB_WHCI is not set
 # CONFIG_UWB_I1480U is not set
-# CONFIG_MMC is not set
 
-
-
-
-
-
-# CONFIG_MMC_BLOCK is not set
-# CONFIG_MMC_BLOCK_MINORS is not set
-# CONFIG_MMC_BLOCK_BOUNCE is not set
-# CONFIG_SDIO_UART is not set
-
-
-
-
-
-# CONFIG_MMC_SDHCI is not set
-# CONFIG_MMC_SDHCI_PCI is not set
-# CONFIG_MMC_RICOH_MMC is not set
-# CONFIG_MMC_SDHCI_ACPI is not set
-
-# CONFIG_MMC_WBSD is not set
-# CONFIG_MMC_TIFM_SD is not set
-
-# CONFIG_MMC_SDRICOH_CS is not set
-# CONFIG_MMC_CB710 is not set
-# CONFIG_MMC_VIA_SDMMC is not set
-# CONFIG_MMC_VUB300 is not set
-# CONFIG_MMC_USHC is not set
-
-# CONFIG_MMC_REALTEK_PCI is not set
-# CONFIG_MMC_REALTEK_USB is not set
-# CONFIG_MMC_TOSHIBA_PCI is not set
 # CONFIG_MEMSTICK is not set
 
-
-
-
-
-
 # CONFIG_MSPRO_BLOCK is not set
-
-
-
-
 
 # CONFIG_MEMSTICK_TIFM_MS is not set
 # CONFIG_MEMSTICK_JMICRON_38X is not set
@@ -4880,19 +4216,7 @@ CONFIG_USB_EHCI_PCI=y
 # CONFIG_NEW_LEDS is not set
 # CONFIG_LEDS_CLASS is not set
 
-
-
-
-
-
-
-
-
 # CONFIG_LEDS_LP3944 is not set
-
-
-
-
 
 # CONFIG_LEDS_CLEVO_MAIL is not set
 # CONFIG_LEDS_PCA955X is not set
@@ -4903,17 +4227,7 @@ CONFIG_USB_EHCI_PCI=y
 # CONFIG_LEDS_LT3593 is not set
 # CONFIG_LEDS_DELL_NETBOOKS is not set
 
-
 # CONFIG_LEDS_MENF21BMC is not set
-
-
-
-
-
-
-
-
-
 
 # CONFIG_LEDS_TRIGGERS is not set
 # CONFIG_LEDS_TRIGGER_TIMER is not set
@@ -4923,9 +4237,6 @@ CONFIG_USB_EHCI_PCI=y
 # CONFIG_LEDS_TRIGGER_CPU is not set
 # CONFIG_LEDS_TRIGGER_GPIO is not set
 # CONFIG_LEDS_TRIGGER_DEFAULT_ON is not set
-
-
-
 
 # CONFIG_LEDS_TRIGGER_TRANSIENT is not set
 # CONFIG_LEDS_TRIGGER_CAMERA is not set
@@ -4996,36 +4307,14 @@ CONFIG_RTC_SYSTOHC=y
 CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_RTC_DRV_RV8803 is not set
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # CONFIG_DMADEVICES is not set
-
-
-
-
-
 
 # CONFIG_INTEL_IOATDMA is not set
 # CONFIG_DW_DMAC_CORE is not set
 # CONFIG_DW_DMAC is not set
 
-
 # CONFIG_DMA_ENGINE is not set
 # CONFIG_DMA_ACPI is not set
-
-
-
 
 # CONFIG_ASYNC_TX_DMA is not set
 
@@ -5034,7 +4323,6 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_DMADEVICES is not set
 # CONFIG_UIO is not set
 # CONFIG_UIO_CIF is not set
-
 
 # CONFIG_UIO_AEC is not set
 # CONFIG_UIO_SERCOS3 is not set
@@ -5158,103 +4446,6 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_8723AU_BT_COEXIST is not set
 # CONFIG_RTS5208 is not set
 
-# CONFIG_VT6656 is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_SENSORS_ISL29018 is not set
-
-# CONFIG_TSL2583 is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # CONFIG_SPEAKUP is not set
 # CONFIG_SPEAKUP_SYNTH_ACNTSA is not set
@@ -5271,10 +4462,6 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 
 # CONFIG_STAGING_MEDIA is not set
 
-
-
-
-
 # CONFIG_LIRC_STAGING is not set
 # CONFIG_LIRC_BT829 is not set
 # CONFIG_LIRC_IMON is not set
@@ -5285,18 +4472,11 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_LIRC_SIR is not set
 # CONFIG_LIRC_ZILOG is not set
 
-
-
-
-
 # CONFIG_WIMAX_GDM72XX is not set
-
-
 
 # CONFIG_WIMAX_GDM72XX_USB is not set
 
 # CONFIG_WIMAX_GDM72XX_USB_PM is not set
-
 
 
 # CONFIG_LUSTRE_FS is not set
@@ -5307,12 +4487,6 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_LNET_MAX_PAYLOAD is not set
 
 # CONFIG_LNET_XPRT_IB is not set
-
-
-
-
-
-
 
 # CONFIG_STAGING is not set
 # CONFIG_ACER_WMI is not set
@@ -5338,8 +4512,6 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_IDEAPAD_LAPTOP is not set
 # CONFIG_THINKPAD_ACPI is not set
 # CONFIG_THINKPAD_ACPI_ALSA_SUPPORT is not set
-
-
 
 # CONFIG_THINKPAD_ACPI_VIDEO is not set
 # CONFIG_THINKPAD_ACPI_HOTKEY_POLL is not set
@@ -5371,12 +4543,6 @@ CONFIG_RTC_SYSTOHC_DEVICE="rtc0"
 # CONFIG_CLKDEV_LOOKUP is not set
 # CONFIG_HAVE_CLK_PREPARE is not set
 # CONFIG_COMMON_CLK is not set
-
-
-
-
-
-
 
 # CONFIG_ACER_WMI is not set
 # CONFIG_ACERHDF is not set
@@ -5415,9 +4581,6 @@ CONFIG_MXM_WMI=y
 # CONFIG_IOMMU_API is not set
 # CONFIG_IOMMU_SUPPORT is not set
 
-
-
-
 # CONFIG_IOMMU_IOVA is not set
 # CONFIG_AMD_IOMMU is not set
 
@@ -5431,17 +4594,7 @@ CONFIG_MXM_WMI=y
 # CONFIG_SUNXI_SRAM is not set
 # CONFIG_PM_DEVFREQ is not set
 
-
-
-
 # CONFIG_DEVFREQ_GOV_SIMPLE_ONDEMAND is not set
-
-
-
-
-
-
-
 
 # CONFIG_PM_DEVFREQ is not set
 # CONFIG_MEMORY is not set
@@ -5453,187 +4606,7 @@ CONFIG_MXM_WMI=y
 # CONFIG_IIO_TRIGGER is not set
 # CONFIG_IIO_CONSUMERS_PER_TRIGGER is not set
 
-
-
-
-
-# CONFIG_BMC150_ACCEL is not set
-# CONFIG_HID_SENSOR_ACCEL_3D is not set
-
-
-
-# CONFIG_KXCJK1013 is not set
-# CONFIG_MMA9551_CORE is not set
-# CONFIG_MMA9551 is not set
-# CONFIG_MMA9553 is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # CONFIG_VIPERBOARD_ADC is not set
-
-
-
-
-
-
-
-
-
-# CONFIG_HID_SENSOR_IIO_COMMON is not set
-# CONFIG_HID_SENSOR_IIO_TRIGGER is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_BMG160 is not set
-# CONFIG_HID_SENSOR_GYRO_3D is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_KMX61 is not set
-# CONFIG_INV_MPU6050_IIO is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_HID_SENSOR_ALS is not set
-# CONFIG_HID_SENSOR_PROX is not set
-# CONFIG_JSA1212 is not set
-
-
-
-# CONFIG_SENSORS_TSL2563 is not set
-
-
-
-
-
-
-# CONFIG_AK8975 is not set
-
-
-# CONFIG_HID_SENSOR_MAGNETOMETER_3D is not set
-
-
-
-
-
-# CONFIG_HID_SENSOR_INCLINOMETER_3D is not set
-# CONFIG_HID_SENSOR_DEVICE_ROTATION is not set
-
-
-
-
-
-
-
-
-
-
-# CONFIG_BMP280 is not set
-# CONFIG_HID_SENSOR_PRESS is not set
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# CONFIG_SX9500 is not set
-
-
-
-
-
 
 # CONFIG_MEMORY is not set
 # CONFIG_IIO is not set
@@ -5667,224 +4640,6 @@ CONFIG_MXM_WMI=y
 # CONFIG_ISCSI_IBFT_FIND is not set
 # CONFIG_ISCSI_IBFT is not set
 # CONFIG_ISCSI_IBFT_FIND is not set
-
-
-# CONFIG_EFI_VARS is not set
-# CONFIG_EFI_VARS_PSTORE is not set
-
-# CONFIG_EFI_RUNTIME_MAP is not set
-# CONFIG_EFI_RUNTIME_WRAPPERS is not set
-# CONFIG_UEFI_CPER is not set
-
-
-# CONFIG_EXT4_FS is not set
-# CONFIG_EXT4_USE_FOR_EXT23 is not set
-CONFIG_EXT4_FS=y
-CONFIG_EXT4_USE_FOR_EXT2=y
-
-
-# CONFIG_JBD2 is not set
-
-# CONFIG_FS_MBCACHE is not set
-# CONFIG_REISERFS_FS is not set
-
-
-# CONFIG_REISERFS_FS_XATTR is not set
-# CONFIG_REISERFS_FS_POSIX_ACL is not set
-# CONFIG_REISERFS_FS_SECURITY is not set
-# CONFIG_JFS_FS is not set
-# CONFIG_JFS_POSIX_ACL is not set
-# CONFIG_JFS_SECURITY is not set
-
-
-# CONFIG_XFS_FS is not set
-# CONFIG_XFS_QUOTA is not set
-# CONFIG_XFS_POSIX_ACL is not set
-# CONFIG_XFS_RT is not set
-
-
-# CONFIG_GFS2_FS is not set
-# CONFIG_GFS2_FS_LOCKING_DLM is not set
-# CONFIG_OCFS2_FS is not set
-# CONFIG_OCFS2_FS_O2CB is not set
-# CONFIG_OCFS2_FS_USERSPACE_CLUSTER is not set
-# CONFIG_OCFS2_FS_STATS is not set
-# CONFIG_OCFS2_DEBUG_MASKLOG is not set
-
-# CONFIG_BTRFS_FS is not set
-# CONFIG_BTRFS_FS_POSIX_ACL is not set
-
-
-
-
-# CONFIG_NILFS2_FS is not set
-# CONFIG_F2FS_FS is not set
-# CONFIG_F2FS_STAT_FS is not set
-# CONFIG_F2FS_FS_XATTR is not set
-# CONFIG_F2FS_FS_POSIX_ACL is not set
-# CONFIG_F2FS_FS_SECURITY is not set
-
-CONFIG_EXT4_ENCRYPTION=y
-CONFIG_EXT4_FS_ENCRYPTION=y
-CONFIG_EXT4_DEBUG=y
-CONFIG_JBD2=y
-CONFIG_JBD2_DEBUG=y
-CONFIG_FS_MBCACHE=y
-# CONFIG_REISERFS_FS is not set
-# CONFIG_JFS_FS is not set
-# CONFIG_XFS_FS is not set
-# CONFIG_GFS2_FS is not set
-# CONFIG_OCFS2_FS is not set
-# CONFIG_BTRFS_FS is not set
-# CONFIG_NILFS2_FS is not set
-# CONFIG_F2FS_FS is not set
-
-# CONFIG_QUOTA is not set
-# CONFIG_QUOTA_NETLINK_INTERFACE is not set
-# CONFIG_PRINT_QUOTA_WARNING is not set
-
-# CONFIG_QUOTA_TREE is not set
-# CONFIG_QFMT_V1 is not set
-# CONFIG_QFMT_V2 is not set
-# CONFIG_QUOTACTL is not set
-# CONFIG_QUOTACTL_COMPAT is not set
-# CONFIG_AUTOFS4_FS is not set
-# CONFIG_FUSE_FS is not set
-# CONFIG_CUSE is not set
-# CONFIG_OVERLAY_FS is not set
-# CONFIG_QUOTA is not set
-# CONFIG_QUOTACTL is not set
-# CONFIG_AUTOFS4_FS is not set
-# CONFIG_FUSE_FS is not set
-# CONFIG_OVERLAY_FS is not set
-# CONFIG_FSCACHE is not set
-CONFIG_FSCACHE=y
-# CONFIG_CACHEFILES is not set
-CONFIG_CACHEFILES=y
-# CONFIG_ISO9660_FS is not set
-# CONFIG_JOLIET is not set
-# CONFIG_ZISOFS is not set
-# CONFIG_UDF_FS is not set
-# CONFIG_UDF_NLS is not set
-# CONFIG_ISO9660_FS is not set
-# CONFIG_UDF_FS is not set
-# CONFIG_PROC_CHILDREN is not set
-# CONFIG_HUGETLBFS is not set
-# CONFIG_HUGETLB_PAGE is not set
-# CONFIG_HUGETLBFS is not set
-# CONFIG_HUGETLB_PAGE is not set
-# CONFIG_EFIVAR_FS is not set
-# CONFIG_ADFS_FS is not set
-
-# CONFIG_AFFS_FS is not set
-# CONFIG_ECRYPT_FS is not set
-# CONFIG_ECRYPT_FS_MESSAGING is not set
-# CONFIG_HFS_FS is not set
-# CONFIG_HFSPLUS_FS is not set
-
-# CONFIG_BEFS_FS is not set
-
-# CONFIG_BFS_FS is not set
-# CONFIG_EFS_FS is not set
-# CONFIG_JFFS2_FS is not set
-# CONFIG_JFFS2_FS_DEBUG is not set
-# CONFIG_JFFS2_FS_WRITEBUFFER is not set
-
-# CONFIG_JFFS2_SUMMARY is not set
-# CONFIG_JFFS2_FS_XATTR is not set
-# CONFIG_JFFS2_FS_POSIX_ACL is not set
-# CONFIG_JFFS2_FS_SECURITY is not set
-# CONFIG_JFFS2_COMPRESSION_OPTIONS is not set
-# CONFIG_JFFS2_ZLIB is not set
-# CONFIG_JFFS2_LZO is not set
-# CONFIG_JFFS2_RTIME is not set
-
-
-# CONFIG_JFFS2_CMODE_PRIORITY is not set
-
-
-# CONFIG_UBIFS_FS is not set
-# CONFIG_UBIFS_FS_ADVANCED_COMPR is not set
-# CONFIG_UBIFS_FS_LZO is not set
-# CONFIG_UBIFS_FS_ZLIB is not set
-# CONFIG_LOGFS is not set
-# CONFIG_CRAMFS is not set
-# CONFIG_SQUASHFS is not set
-# CONFIG_SQUASHFS_FILE_CACHE is not set
-
-# CONFIG_SQUASHFS_DECOMP_SINGLE is not set
-
-
-# CONFIG_SQUASHFS_XATTR is not set
-# CONFIG_SQUASHFS_ZLIB is not set
-
-# CONFIG_SQUASHFS_LZO is not set
-# CONFIG_SQUASHFS_XZ is not set
-
-
-# CONFIG_SQUASHFS_FRAGMENT_CACHE_SIZE is not set
-# CONFIG_VXFS_FS is not set
-# CONFIG_MINIX_FS is not set
-# CONFIG_OMFS_FS is not set
-# CONFIG_ADFS_FS is not set
-# CONFIG_AFFS_FS is not set
-# CONFIG_ECRYPT_FS is not set
-# CONFIG_HFS_FS is not set
-# CONFIG_HFSPLUS_FS is not set
-# CONFIG_BEFS_FS is not set
-# CONFIG_BFS_FS is not set
-# CONFIG_EFS_FS is not set
-# CONFIG_LOGFS is not set
-# CONFIG_CRAMFS is not set
-# CONFIG_SQUASHFS is not set
-# CONFIG_VXFS_FS is not set
-# CONFIG_MINIX_FS is not set
-# CONFIG_OMFS_FS is not set
-# CONFIG_QNX4FS_FS is not set
-# CONFIG_QNX6FS_FS is not set
-
-# CONFIG_ROMFS_FS is not set
-
-
-# CONFIG_ROMFS_BACKED_BY_BOTH is not set
-# CONFIG_ROMFS_ON_BLOCK is not set
-# CONFIG_ROMFS_ON_MTD is not set
-# CONFIG_PSTORE is not set
-
-
-# CONFIG_PSTORE_RAM is not set
-# CONFIG_SYSV_FS is not set
-# CONFIG_UFS_FS is not set
-
-
-# CONFIG_EXOFS_FS is not set
-
-# CONFIG_ORE is not set
-# CONFIG_NETWORK_FILESYSTEMS is not set
-# CONFIG_NFS_FS is not set
-# CONFIG_NFS_V2 is not set
-# CONFIG_NFS_V3 is not set
-# CONFIG_NFS_V3_ACL is not set
-# CONFIG_NFS_V4 is not set
-# CONFIG_NFS_SWAP is not set
-# CONFIG_NFS_V4_1 is not set
-# CONFIG_NFS_V4_2 is not set
-# CONFIG_PNFS_FILE_LAYOUT is not set
-# CONFIG_PNFS_BLOCK is not set
-# CONFIG_PNFS_OBJLAYOUT is not set
-# CONFIG_PNFS_FLEXFILE_LAYOUT is not set
-# CONFIG_NFS_V4_1_IMPLEMENTATION_ID_DOMAIN is not set
-
-# CONFIG_NFS_V4_SECURITY_LABEL is not set
-# CONFIG_NFS_FSCACHE is not set
-
-# CONFIG_NFS_USE_KERNEL_DNS is not set
-# CONFIG_NFS_DEBUG is not set
-# CONFIG_NFSD is not set
-# CONFIG_NFSD_V2_ACL is not set
-# CONFIG_NFSD_V3 is not set
-# CONFIG_NFSD_V3_ACL is not set
-# CONFIG_NFSD_V4 is not set
 
 # CONFIG_NFSD_V4_SECURITY_LABEL is not set
 
@@ -6057,28 +4812,19 @@ CONFIG_STACKTRACE=y
 # CONFIG_RING_BUFFER is not set
 # CONFIG_RING_BUFFER_ALLOW_SWAP is not set
 
-
 # CONFIG_TEST_PRINTF is not set
 # CONFIG_TEST_STATIC_KEYS is not set
 # CONFIG_EARLY_PRINTK_EFI is not set
 # CONFIG_X86_PTDUMP_CORE is not set
 # CONFIG_DEBUG_WX is not set
 
-
 # CONFIG_DEBUG_ENTRY is not set
 CONFIG_X86_DEBUG_FPU=y
 # CONFIG_PUNIT_ATOM_DEBUG is not set
 
-
-
-
 # CONFIG_GRKERNSEC is not set
 
-
-
-
 # CONFIG_GRKERNSEC_PERF_HARDEN is not set
-
 
 CONFIG_ENCRYPTED_KEYS=y
 # CONFIG_SECURITY is not set
@@ -6090,11 +4836,9 @@ CONFIG_ENCRYPTED_KEYS=y
 # CONFIG_LSM_MMAP_MIN_ADDR is not set
 # CONFIG_SECURITY_SELINUX is not set
 
-
 # CONFIG_SECURITY_SELINUX_DEVELOP is not set
 # CONFIG_SECURITY_SELINUX_AVC_STATS is not set
 # CONFIG_SECURITY_SELINUX_CHECKREQPROT_VALUE is not set
-
 
 # CONFIG_SECURITY_TOMOYO is not set
 # CONFIG_SECURITY_TOMOYO_MAX_ACCEPT_ENTRY is not set
@@ -6110,11 +4854,6 @@ CONFIG_ENCRYPTED_KEYS=y
 # CONFIG_INTEGRITY is not set
 
 # CONFIG_INTEGRITY_AUDIT is not set
-
-
-
-
-
 
 # CONFIG_XOR_BLOCKS is not set
 # CONFIG_ASYNC_CORE is not set
@@ -6220,10 +4959,6 @@ CONFIG_CRYPTO_JITTERENTROPY=y
 # CONFIG_RAID6_PQ is not set
 # CONFIG_CRC16 is not set
 CONFIG_CRC16=y
-
-
-
-
 
 CONFIG_XZ_DEC_POWERPC=y
 CONFIG_XZ_DEC_IA64=y
