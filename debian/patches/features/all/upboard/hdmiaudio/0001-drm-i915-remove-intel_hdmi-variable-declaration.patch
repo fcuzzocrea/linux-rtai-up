@@ -1,0 +1,37 @@
+From a22724624c0c0319ca5b13c26a0692c625e0a83a Mon Sep 17 00:00:00 2001
+From: Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>
+Date: Wed, 2 Mar 2016 14:30:44 -0600
+Subject: [PATCH] drm: i915: remove intel_hdmi variable declaration
+
+'intel_hdmi' variable is redeclared, use same variable declared in
+function scope.
+
+Signed-off-by: Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>
+---
+ drivers/gpu/drm/i915/intel_hdmi.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/drivers/gpu/drm/i915/intel_hdmi.c b/drivers/gpu/drm/i915/intel_hdmi.c
+index 1ea8532..5a892aa 100644
+--- a/drivers/gpu/drm/i915/intel_hdmi.c
++++ b/drivers/gpu/drm/i915/intel_hdmi.c
+@@ -1371,6 +1371,7 @@ intel_hdmi_detect(struct drm_connector *connector, bool force)
+ {
+ 	enum drm_connector_status status;
+ 	struct drm_i915_private *dev_priv = to_i915(connector->dev);
++	struct intel_hdmi *intel_hdmi;
+ 
+ 	DRM_DEBUG_KMS("[CONNECTOR:%d:%s]\n",
+ 		      connector->base.id, connector->name);
+@@ -1380,7 +1381,7 @@ intel_hdmi_detect(struct drm_connector *connector, bool force)
+ 	intel_hdmi_unset_edid(connector);
+ 
+ 	if (intel_hdmi_set_edid(connector)) {
+-		struct intel_hdmi *intel_hdmi = intel_attached_hdmi(connector);
++		intel_hdmi = intel_attached_hdmi(connector);
+ 
+ 		hdmi_to_dig_port(intel_hdmi)->base.type = INTEL_OUTPUT_HDMI;
+ 		status = connector_status_connected;
+-- 
+2.7.4
+

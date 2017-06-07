@@ -1,0 +1,8 @@
+Section: kernel
+Priority: optional
+Maintainer: ubilinux team <ubilinux@emutex.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper, python3:any, quilt,
+ cpio, kmod, xz-utils, kernel-wedge (>= 2.93~), bc
+Build-Depends-Indep: patchutils, xmlto
+Homepage: https://www.kernel.org/
