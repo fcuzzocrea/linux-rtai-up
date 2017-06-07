@@ -23,6 +23,10 @@ arches:
 compiler: gcc-4.9
 featuresets:
  none
+ rtai
+
+[featureset-rtai_base]
+enabled: true
 
 [image]
 initramfs-generators: initramfs-tools initramfs-fallback
